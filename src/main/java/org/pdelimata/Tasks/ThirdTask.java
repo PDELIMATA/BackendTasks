@@ -11,6 +11,7 @@ public class ThirdTask {
 
         int finalResult = calculateResult(sortedData);
         System.out.println("Result: " + finalResult);
+        System.out.println();
     }
 
     private static List<List<Integer>> readInputData(Scanner scanner) {

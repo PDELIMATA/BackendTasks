@@ -27,7 +27,6 @@ public class FirstTask {
     }
 
     private static void printResult(List<Integer> list, Set<Integer> set) {
-        System.out.println("Result:");
         printSet(set);
         System.out.println("count: " + list.size());
         System.out.println("distinct: " + set.size());

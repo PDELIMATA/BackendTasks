@@ -19,7 +19,6 @@ public class SecondTask {
         ArrayList<Integer> list = convertInput(input);
 
 
-        System.out.println("Pairs that sum up to 13:");
         printPairsSumThirteen(list);
         System.out.println();
     }

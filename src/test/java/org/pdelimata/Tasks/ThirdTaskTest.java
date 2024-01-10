@@ -35,7 +35,7 @@ public class ThirdTaskTest {
             //when
             thirdTask.runTask(new java.util.Scanner(System.in));
 
-            String normalizedExpectedOutput = "Enter the number of data sets: " + System.lineSeparator() + "Result: " + expectedOutput;
+            String normalizedExpectedOutput = "Enter the number of data sets: " + System.lineSeparator() + expectedOutput;
             String normalizedActualOutput = outputStream.toString().trim().replace("\r\n", "\n").replace("\n", System.lineSeparator());
 
             //then

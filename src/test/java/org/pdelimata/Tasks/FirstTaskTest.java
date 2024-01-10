@@ -15,10 +15,10 @@ class FirstTaskTest {
 
     @ParameterizedTest
     @CsvSource({
-            "4 2 2 1 3 4 4 5, 'Enter a list of integers separated by spaces:\nResult:\n1 2 3 4 5 \ncount: 8\ndistinct: 5\nmin: 1\nmax: 5\n\n'",
+            "4 2 2 1 3 4 4 5, 'Enter a list of integers separated by spaces:\n1 2 3 4 5 \ncount: 8\ndistinct: 5\nmin: 1\nmax: 5\n\n'",
             "'\n', 'Enter a list of integers separated by spaces:\nEmpty input. Please provide a list of integers.\n'",
-            "5, 'Enter a list of integers separated by spaces:\nResult:\n5 \ncount: 1\ndistinct: 1\nmin: 5\nmax: 5\n\n'",
-            "-4 -2 -2 -1 -3 -4 -4 -5, 'Enter a list of integers separated by spaces:\nResult:\n-5 -4 -3 -2 -1 \ncount: 8\ndistinct: 5\nmin: -5\nmax: -1\n\n'"
+            "5, 'Enter a list of integers separated by spaces:\n5 \ncount: 1\ndistinct: 1\nmin: 5\nmax: 5\n\n'",
+            "-4 -2 -2 -1 -3 -4 -4 -5, 'Enter a list of integers separated by spaces:\n-5 -4 -3 -2 -1 \ncount: 8\ndistinct: 5\nmin: -5\nmax: -1\n\n'"
     })
     public void testDistinctSortingWithStatistics(String input, String expectedOutput) {
         InputStream inputStream = new ByteArrayInputStream(input.getBytes());

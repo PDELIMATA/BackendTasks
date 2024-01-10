@@ -13,8 +13,8 @@ public class Main {
         String input;
 
         do {
-            System.out.println("Choose task: enter 1, 2 or 3");
-            System.out.println("Exit, enter q");
+            System.out.println("Choose task: type 1, 2 or 3 and press enter");
+            System.out.println("To exit type q and press enter");
 
             input = scanner.nextLine();
             switch (input) {

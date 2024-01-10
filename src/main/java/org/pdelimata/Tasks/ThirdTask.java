@@ -10,7 +10,7 @@ public class ThirdTask {
         Map<Integer, List<Integer>> sortedData = getSortedData(input);
 
         int finalResult = calculateResult(sortedData);
-        System.out.println("Result: " + finalResult);
+        System.out.println(finalResult);
         System.out.println();
     }
 

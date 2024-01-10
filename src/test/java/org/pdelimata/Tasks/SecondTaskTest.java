@@ -16,9 +16,9 @@ public class SecondTaskTest {
     @ParameterizedTest
     @CsvSource({
             "'\n', 'Enter a list of integers separated by spaces:\nEmpty input. Please provide a list of integers.\n'",
-            "'1 2 3 4 5\n', 'Enter a list of integers separated by spaces:\nPairs that sum up to 13:\n\n'",
-            "'3 7 5 6\n', 'Enter a list of integers separated by spaces:\nPairs that sum up to 13:\n6 7\n\n'",
-            "'1 2 10 7 5 3 6 6 13 0\n', 'Enter a list of integers separated by spaces:\nPairs that sum up to 13:\n0 13\n3 10\n6 7\n6 7\n\n'"
+            "'1 2 3 4 5\n', 'Enter a list of integers separated by spaces:\n\n'",
+            "'3 7 5 6\n', 'Enter a list of integers separated by spaces:\n6 7\n\n'",
+            "'1 2 10 7 5 3 6 6 13 0\n', 'Enter a list of integers separated by spaces:\n0 13\n3 10\n6 7\n6 7\n\n'"
     })
     public void testCheckingPairsSummingThirteen(String input, String expectedOutput) {
         //given

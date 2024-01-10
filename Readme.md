@@ -11,8 +11,9 @@ This Java console application reads a long list of integers from standard input 
 ### Execution
 
 1. Run the Java application.
-2. Enter a long list of integers separated by spaces.
-3. The program will display the distinct elements sorted in ascending order along with measurement information.
+2. Type 1 and press enter.
+3. Enter list of integers separated by spaces.
+4. The program will display the distinct elements sorted in ascending order along with measurement information.
 
 ### Sample Execution
 
@@ -37,8 +38,9 @@ This Java console application reads a long list of integers from standard input 
 ### Execution
 
 1. Run the Java application.
-2. Enter a long list of integers separated by spaces.
-3. The program will display pairs that sum up to 13, meeting the specified criteria.
+2. Type 2 and press enter.
+3. Enter list of integers separated by spaces.
+4. The program will display pairs that sum up to 13, meeting the specified criteria.
 
 ### Sample Execution
 
@@ -63,9 +65,10 @@ This Java console application reads input that defines connections between verti
 ### Execution
 
 1. Run the Java application.
-2. Enter the number of connections `n`.
-3. Enter `n` pairs of positive integers representing connections between vertices.
-4. The program will display the number of separated graphs based on the input.
+2. Type 3 and press enter.
+3. Enter the number of connections `n`.
+4. Enter `n` pairs of positive integers representing connections between vertices. After each pair press enter.
+5. The program will display the number of separated graphs based on the input.
 
 ### Sample Execution
 

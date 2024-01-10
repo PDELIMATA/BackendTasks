@@ -14,14 +14,14 @@ public class FirstTask {
             return;
         }
 
-        List<Integer> list = readInput(input);
+        List<Integer> list = convertInput(input);
 
         Set<Integer> sortedSet = new TreeSet<>(list);
         printResult(list, sortedSet);
     }
 
 
-    private static List<Integer> readInput(String str) {
+    private static List<Integer> convertInput(String str) {
         return Arrays.stream(str.split(" "))
                 .map(Integer::parseInt).sorted().collect(Collectors.toList());
     }

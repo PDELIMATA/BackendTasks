@@ -16,17 +16,21 @@ public class SecondTask {
             return;
         }
 
-        ArrayList<Integer> list = (ArrayList<Integer>) Arrays.stream(input.split(" "))
-                .toList()
-                .stream()
-                .map(Integer::parseInt)
-                .sorted()
-                .collect(Collectors.toList());
+        ArrayList<Integer> list = convertInput(input);
 
 
         System.out.println("Pairs that sum up to 13:");
         printPairsSumThirteen(list);
         System.out.println();
+    }
+
+    private static ArrayList<Integer> convertInput(String input) {
+        return (ArrayList<Integer>) Arrays.stream(input.split(" "))
+                .toList()
+                .stream()
+                .map(Integer::parseInt)
+                .sorted()
+                .collect(Collectors.toList());
     }
 
     private void printPairsSumThirteen(ArrayList<Integer> list) {
